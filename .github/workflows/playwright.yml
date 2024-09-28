@@ -3,8 +3,8 @@ name: Regression Tests - UI and API
 on:
   pull_request:
     branches: [ main, master ]
-  schedule:
-    - cron: '0 11 * * *' # Run every day at 11a.m
+  # schedule:
+  #   - cron: '0 11 * * *' # Run every day at 11a.m
 
 jobs:
   test:
