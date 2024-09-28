@@ -1,0 +1,38 @@
+{
+  "name": "playwright-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rm -rf playwright-report & rm -rf test-results && rm -rf reports",
+    "lint": "yarn eslint . --quiet --ext .ts",
+    "lint:fix": "yarn eslint . --fix --ext .ts",
+    "lint:report": "eslint --output-file ./reports/eslint.json --format json --ext .ts tests/ ; exit 0",
+    "prepare": "husky install",
+    "test": "yarn playwright test",
+    "test:ui": "yarn playwright test --ui",
+    "test:headed": "yarn playwright test --headed"
+  },
+  "lint-staged": {
+    "*.{ts,css,json}": [
+      "yarn run eslint --fix"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.47.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6"
+  }
+}

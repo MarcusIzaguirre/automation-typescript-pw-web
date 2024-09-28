@@ -1,0 +1,26 @@
+{
+  "en-US" : {
+    "integration" : {
+      "custom-section" : "This is a CUSTOM SECTION text."
+    },
+    "common" : {
+      "service-disabled" : "This is the service disabled text.",
+      "explicit-filter-description" : "This is the service explicit filter description.",
+      "service-promo" : "This is the service promo.",
+      "service-summary" : "This is the service summary.",
+      "service-description" : "This is the service description"
+    }
+  },
+  "es-ES" : {
+    "integration" : {
+      "custom-section" : "This is a CUSTOM SECTION text, but in spanish."
+    },
+    "common" : {
+      "service-disabled" : "This is the service disabled text, but in spanish,",
+      "explicit-filter-description" : "This is the service explicit filter description, but in spanish.",
+      "service-promo" : "This is the service promo, but in spanish.",
+      "service-summary" : "This is the service summary, but in spanish.",
+      "service-description" : "This is the service description, but in spanish."
+    }
+  }
+}

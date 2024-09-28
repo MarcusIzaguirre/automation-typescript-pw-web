@@ -1,0 +1,26 @@
+.npm
+allure-report/
+allure-results/
+node_modules/
+playwright-report
+reports/
+screenshots/
+testrailResults/
+test-results/
+.auth
+auth.json
+
+package-lock.json
+yarn.lock
+
+yarn-error.log
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+/test-results/
+/playwright-report/
+/playwright/.cache/

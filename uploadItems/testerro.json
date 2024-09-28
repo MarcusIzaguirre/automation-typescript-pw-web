@@ -1,0 +1,239 @@
+OK ERRO
+
+
+{
+  "websites" : {} #erro
+    "home" : "https://www.uol.com.br/"
+  },
+  "string-resources" : {
+    "service-disabled" : {
+      "en-US" : "This service is no longer available."
+    },
+    "service-description" : {
+      "en-US" : "111"
+    },
+    "service-summary" : {
+      "en-US" : "111"
+    },
+    "service-promo" : {
+      "en-US" : "111"
+    },
+    "explicit-filter" : {
+      "en-US" : "EF"
+    },
+    "disabled-service" : {
+      "en-US" : "DS"
+    }
+  },
+  "stream-quality-badge-options" : [ ],
+  "resource-types" : [ "ALBUM", "TRACK" ],
+  "request-header-device-cert" : false,
+  "preinstalled" : false,
+  "poll-interval-default" : 60,
+  "playlist-editing-enabled" : false,
+  "page-size-default" : 100,
+  "name" : "BROWSE OPTIONS",
+  "multi-account-disabled" : false,
+  "integration-id" : "teste1.api.bp",
+  "id" : "5b32f596-e556-4335-b8af-1ec155511616",
+  "enabled" : true,
+  "distribution-type" : "TESTING",
+  "commercial" : true,
+  "browse-options" : {
+    "displays" : {
+      "brand" : {
+        "item-text" : {
+          "title" : "teste",
+          "subtitle" : "teste",
+          "summary" : "teste"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "teste",
+          "subtitle" : "teste",
+          "summary" : "teste"
+        },
+        "type" : "BRAND" {ERRO}
+      },
+      "editorial" : {
+        "item-text" : {
+          "title" : "teste",
+          "subtitle" : "teste",
+          "summary" : "teste"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "teste",
+          "subtitle" : "teste",
+          "summary" : "tteste"
+        },
+        "type" : "EDITORIAL"
+      },
+      "grid" : {
+        "item-text" : {
+          "title" : "@@@",
+          "subtitle" : "@@@",
+          "summary" : "@@@"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "aaa",
+          "subtitle" : "aaa",
+          "summary" : "@@@"
+        },
+        "type" : "GRID"
+      },
+      "hero" : {
+        "item-text" : {
+          "title" : "------",
+          "subtitle" : "------",
+          "summary" : "-------"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "------",
+          "subtitle" : "------",
+          "summary" : "-------"
+        },
+        "type" : "HERO"
+      },
+      "text" : {
+        "item-text" : {
+          "title" : "HEADER",
+          "subtitle" : "HEADER",
+          "summary" : "HEADER"
+        },
+        "item-adornment" : "NONE",
+        "header-text" : {
+          "title" : "HEADER",
+          "subtitle" : "HEADER",
+          "summary" : "HEADER"
+        },
+        "type" : "TEXT"
+      },
+      "heroEditorial" : {
+        "item-text" : {
+          "title" : "----",
+          "subtitle" : "----",
+          "summary" : "----"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "----",
+          "subtitle" : "----",
+          "summary" : "----"
+        },
+        "type" : "HERO_EDITORIAL"
+      },
+      "list" : {
+        "item-text" : {
+          "title" : ".......",
+          "subtitle" : ".........",
+          "summary" : "......"
+        },
+        "item-adornment" : "IMAGE",
+        "header-text" : {
+          "title" : "......",
+          "subtitle" : "..........",
+          "summary" : "........"
+        },
+        "type" : "LIST"
+      },
+      "table" : {
+        "item-text" : {
+          "title" : "=====",
+          "subtitle" : "=====",
+          "summary" : "======"
+        },
+        "item-adornment" : "NONE",
+        "header-text" : {
+          "title" : "=======",
+          "subtitle" : "======",
+          "summary" : "======="
+        },
+        "type" : "TABLE"
+      }
+    }
+  },
+  "brand-assets" : {
+    "logo" : [ {
+      "uri" : "https://integration-image-assets.test.ws.sonos.com/teste1.api.bp/5b32f596-e556-4335-b8af-1ec155511616/logo-file.svg",
+      "name" : "logo-file.svg",
+      "min-scale" : {
+        "height" : 10,
+        "width" : 10
+      },
+      "max-scale" : {
+        "height" : 10,
+        "width" : 10
+      },
+      "content-type" : "image/svg+xml"
+    } ],
+    "icon" : [ {
+      "uri" : "https://integration-image-assets.test.ws.sonos.com/teste1.api.bp/5b32f596-e556-4335-b8af-1ec155511616/iconsvg-file.svg",
+      "name" : "iconsvg-file.svg",
+      "min-scale" : {
+        "height" : 1,
+        "width" : 1
+      },
+      "max-scale" : {
+        "height" : 1,
+        "width" : 1
+      },
+      "content-type" : "image/svg+xml"
+    } ],
+    "badge" : [ {
+      "uri" : "https://integration-image-assets.test.ws.sonos.com/teste1.api.bp/5b32f596-e556-4335-b8af-1ec155511616/badgesvg-file.svg",
+      "name" : "badgesvg-file.svg",
+      "min-scale" : {
+        "height" : 12,
+        "width" : 12
+      },
+      "max-scale" : {
+        "height" : 12,
+        "width" : 12
+      },
+      "content-type" : "image/svg+xml"
+    } ]
+  },
+  "availability-restrictions" : {
+    "sonos-accounts" : [ {
+      "id" : 66,
+      "environment" : "TEST"
+    } ],
+    "regions" : [ "GB" ],
+    "firmware-min-version" : "66",
+    "firmware-max-version" : "22",
+    "environments" : [ "TEST" ],
+    "beta-groups" : [ "QA - All Services", "QA - Allion" ]
+  },
+  "authentication" : "ANONYMOUS",
+  "api-host" : "bp.api.teste1",
+  "api-endpoints" : {
+    "soap" : {
+      "version" : "1.0",
+      "route" : "soap test"
+    },
+    "search" : {
+      "version" : "1.0",
+      "route" : "5"
+    },
+    "report" : {
+      "version" : "1.0",
+      "route" : "4"
+    },
+    "radio" : {
+      "version" : "1.0",
+      "route" : "3"
+    },
+    "browse" : {
+      "version" : "1.0",
+      "route" : "2"
+    },
+    "audiobook" : {
+      "version" : "1.0",
+      "route" : "1"
+    }
+  },
+  "alarm-use-disabled" : false
+}
