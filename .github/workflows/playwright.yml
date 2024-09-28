@@ -1,4 +1,4 @@
-name: Regression Tests DevPortal - UI and API
+name: Regression Tests - UI and API
 
 on:
   pull_request:
